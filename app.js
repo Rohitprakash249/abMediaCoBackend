@@ -4,7 +4,7 @@ const bodyParser = require("express");
 const cors = require("cors");
 const app = express();
 const corsOptions = {
-  origin: "https://ab-media-co-front-end.vercel.app/", // List of allowed domains
+  origin: "https://ab-media-co-front-end.vercel.app", // List of allowed domains
   credentials: true, // Allow cookies to be sent and received
   methods: ["GET", "POST", "PUT", "DELETE"], // Allowed methods
   allowedHeaders: ["Content-Type", "Authorization"], // Allowed headers
